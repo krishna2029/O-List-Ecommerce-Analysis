@@ -186,10 +186,10 @@ satisfaction scores.
 ![Delivery and Operations](Olist-Dashboard/page2_delivery_operations.png)
 
 ### Page 3 — Customer Behaviour
-![Customer behaviour](Olist_Dashboard/page3_Customer.behaviour.png)
+![Customer behaviour](Olist-Dashboard/page3_Customers.behaviour.png)
 
-### Page 4 — Sales & Products
-![Sales and Products](Olist-Dashboard/page4_sales_products.png)
+### Page 4 — Seller Performance
+![Seller Performance](Olist-Dashboard/page4_seller_performance.png)
 
 ---
 
