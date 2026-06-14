@@ -180,40 +180,16 @@ satisfaction scores.
 ## 📈 Dashboard Preview
 
 ### Page 1 — Executive Summary
-![Executive Summary](dashboard/screenshots/page1_executive_summary.png)
+![Executive Summary](Olist-Dashboard/page1_executive_summary.png)
 
-### Page 2 — Sales & Products
-![Sales and Products](dashboard/screenshots/page2_sales_products.png)
+### Page 2 — Delivery & Operations
+![Delivery and Operations](Olist-Dashboard/page2_delivery_operations.png)
 
-### Page 3 — Delivery & Operations
-![Delivery and Operations](dashboard/screenshots/page3_delivery_operations.png)
+### Page 3 — Customer Behaviour
+![Customer behaviour](Olist_Dashboard/page3_Customer.behaviour.png)
 
-### Page 4 — Seller Performance
-![Seller Performance](dashboard/screenshots/page4_seller_performance.png)
-
----
-
-## 📝 SQL Highlights
-
-Key SQL queries written for this project (see `sql/olist_queries.sql`):
-
-```sql
--- Month-over-Month revenue growth using LAG()
-SELECT order_month,
-       ROUND(SUM(revenue), 2) AS monthly_revenue,
-       ROUND((SUM(revenue) - LAG(SUM(revenue)) OVER (ORDER BY order_month))
-             * 100.0 / LAG(SUM(revenue)) OVER (ORDER BY order_month), 2) AS growth_pct
-FROM olist_master
-GROUP BY order_month
-ORDER BY order_month;
-
--- Risk sellers: high revenue, low satisfaction
-SELECT seller_id, total_orders, total_revenue, avg_review
-FROM seller_stats
-WHERE total_revenue > (SELECT MEDIAN(total_revenue) FROM seller_stats)
-AND avg_review < 3.0
-ORDER BY total_revenue DESC;
-```
+### Page 4 — Sales & Products
+![Sales and Products](Olist-Dashboard/page4_sales_products.png)
 
 ---
 
@@ -249,11 +225,10 @@ jupyter notebook notebooks/olist_analysis.ipynb
 
 ## 👤 Author
 
-**[Your Name]**  
+**[Krishna Kumar Agrawal]**  
 B.Tech Computer Science | Aspiring Data Analyst  
-📧 [your.email@gmail.com]  
-🔗 [LinkedIn Profile](https://linkedin.com/in/yourprofile)  
-🐙 [GitHub Profile](https://github.com/yourusername)
+📧 [krishnaagrawal2029@gmail.com]  
+🔗 [LinkedIn Profile](www.linkedin.com/in/krishna-agrawal-data29)  
 
 ---
 
