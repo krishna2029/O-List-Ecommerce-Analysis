@@ -18,8 +18,7 @@ business recommendations for leadership.
 ```
 olist-ecommerce-analysis/
 │
-├── 📁 notebooks/
-│   └── olist_analysis.ipynb        # Full EDA notebook (Python)
+├──  olist_analysis.ipynb        # Full EDA notebook (Python)
 │
 ├── 📁 dashboard/
 │   ├── olist_dashboard.pbix        # Power BI dashboard file
@@ -28,12 +27,8 @@ olist-ecommerce-analysis/
         ├── page3_Customers.behaviour.png
 │       └── page4_seller_performance.png
 │
-├── 📁 reports/
-│   └── olist_analysis_report.pdf   # Full written analysis report
-├── 📁 data/
-│   └── README.md                   # Dataset info and download link
-│
-└── README.md
+├──  olist_analysis_report.pdf   # Full written analysis report
+├── README.md                   # Dataset info and download link
 ```
 
 ---
