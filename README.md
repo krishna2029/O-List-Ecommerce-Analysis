@@ -23,10 +23,9 @@ olist-ecommerce-analysis/
 │
 ├── 📁 dashboard/
 │   ├── olist_dashboard.pbix        # Power BI dashboard file
-│   └── screenshots/
 │       ├── page1_executive_summary.png
-│       ├── page3_delivery_operations.png
-        ├── page4_Customers.behaviour.png
+│       ├── page2_delivery_operations.png
+        ├── page3_Customers.behaviour.png
 │       └── page4_seller_performance.png
 │
 ├── 📁 reports/
